@@ -15,7 +15,7 @@ public class TestController {
     @RequestMapping(value = "/getTest/{name}",method = RequestMethod.GET)
     public String getTest(@PathVariable String name){
         System.err.println(name);
-        return name;
+        return name+"feng";
     }
 
 }
