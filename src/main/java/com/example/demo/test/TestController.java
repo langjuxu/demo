@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
  * @author fengqian
  * @date 2018/5/9
  */
-@RestController
+@RestController // 不能用来进行页面跳转，因为是@ResponseBody+@Controller,而@ResponseBody是返回json数据
 public class TestController {
 
     @RequestMapping(value = "/getTest/{name}", method = RequestMethod.GET)
