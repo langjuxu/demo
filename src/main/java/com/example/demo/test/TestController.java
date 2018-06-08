@@ -21,4 +21,8 @@ public class TestController {
         return name + "feng";
     }
 
+    public static void main(String[] args) {
+        System.err.println("为了验证一下提交后，Jenkins的反应。。。。。。");
+    }
+
 }
